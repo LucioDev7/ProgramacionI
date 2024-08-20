@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\views\\linq\\pruebaslinqview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|c:\\tercerolucio\\programacioni\\ciclismodesktop\\views\\linq\\pruebaslinqview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|C:\\TerceroLucio\\ProgramacionI\\ciclismodesktop\\views\\linq\\pruebaslinqview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\views\\linq\\pruebaslinqview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|c:\\tercerolucio\\programacioni\\ciclismodesktop\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|c:\\tercerolucio\\programacioni\\ciclismodesktop\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|c:\\tercerolucio\\programacioni\\ciclismodesktop\\xml\\libros.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\xml\\libros.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|c:\\tercerolucio\\programacioni\\ciclismodesktop\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FD11C6-95C3-4A30-BA48-5723137A17CA}|CiclismoDesktop\\CiclismoDesktopPorCodigo.csproj|solutionrelative:ciclismodesktop\\views\\mainmenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pelicula.cs",
-              "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Models\\Pelicula.cs",
-              "RelativeDocumentMoniker": "CiclismoDesktop\\Models\\Pelicula.cs",
-              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Models\\Pelicula.cs",
-              "RelativeToolTip": "CiclismoDesktop\\Models\\Pelicula.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:21:45.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PruebasLinqView.cs",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
               "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
               "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
               "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAADwv2wAAAAcAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:28:38.069Z",
+              "WhenOpened": "2024-08-20T19:48:09.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Libros.xml",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\XML\\Libros.xml",
               "RelativeDocumentMoniker": "CiclismoDesktop\\XML\\Libros.xml",
@@ -105,8 +88,7 @@
               "RelativeToolTip": "CiclismoDesktop\\Views\\MainMenuView.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAcwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:30:51.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T17:30:51.512Z"
             },
             {
               "$type": "Document",

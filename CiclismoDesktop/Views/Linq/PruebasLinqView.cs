@@ -99,7 +99,24 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
 
         private void btnWhereLinq_Click(object sender, EventArgs e)
         {
-            var peliculas = JSONarrayPeliculas.Cast<List<Pelicula>>().Where(p => p.year>2000).ToList();
+            var pelis = JSONarrayPeliculas.ToObject<List<Pelicula>>();
+            var peliculas = pelis.Where(p => p.year > 2000).ToList();
+            dataGridResultados.DataSource = peliculas;
+        }
+
+        private void btnOfType_Click(object sender, EventArgs e)
+        {
+            var pelis = JSONarrayPeliculas.ToObject<List<Pelicula>>();
+            var peliculas = pelis.OfType<int>();
+            dataGridResultados.DataSource = peliculas;
+        }
+
+        private void btnWhereLinqAvanz_Click(object sender, EventArgs e)
+        {
+            var filtro = txtFiltro.Text;
+            var pelis = JSONarrayPeliculas.ToObject<List<Pelicula>>();
+            var peliculas = pelis.Where(p => p.title.Contains(filtro) || p.director.Contains(filtro) || p.genre.Contains(filtro)).ToList();
+            dataGridResultados.DataSource = peliculas;
         }
     }
 }

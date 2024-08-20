@@ -36,6 +36,9 @@
             btnSelectLinq = new Button();
             btnSelectManyLinq = new Button();
             btnWhereLinq = new Button();
+            btnOfType = new Button();
+            btnWhereLinqAvanz = new Button();
+            txtFiltro = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridResultados).BeginInit();
             SuspendLayout();
             // 
@@ -118,11 +121,41 @@
             btnWhereLinq.UseVisualStyleBackColor = true;
             btnWhereLinq.Click += btnWhereLinq_Click;
             // 
+            // btnOfType
+            // 
+            btnOfType.Location = new Point(181, 409);
+            btnOfType.Name = "btnOfType";
+            btnOfType.Size = new Size(141, 29);
+            btnOfType.TabIndex = 8;
+            btnOfType.Text = "Prueba ofType";
+            btnOfType.UseVisualStyleBackColor = true;
+            btnOfType.Click += btnOfType_Click;
+            // 
+            // btnWhereLinqAvanz
+            // 
+            btnWhereLinqAvanz.Location = new Point(333, 373);
+            btnWhereLinqAvanz.Name = "btnWhereLinqAvanz";
+            btnWhereLinqAvanz.Size = new Size(212, 29);
+            btnWhereLinqAvanz.TabIndex = 9;
+            btnWhereLinqAvanz.Text = "Prueba Where Avanzado";
+            btnWhereLinqAvanz.UseVisualStyleBackColor = true;
+            btnWhereLinqAvanz.Click += btnWhereLinqAvanz_Click;
+            // 
+            // txtFiltro
+            // 
+            txtFiltro.Location = new Point(333, 412);
+            txtFiltro.Name = "txtFiltro";
+            txtFiltro.Size = new Size(212, 27);
+            txtFiltro.TabIndex = 10;
+            // 
             // PruebasLinqView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtFiltro);
+            Controls.Add(btnWhereLinqAvanz);
+            Controls.Add(btnOfType);
             Controls.Add(btnWhereLinq);
             Controls.Add(btnSelectManyLinq);
             Controls.Add(btnSelectLinq);
@@ -136,6 +169,7 @@
             Text = "PruebasLinqView";
             ((System.ComponentModel.ISupportInitialize)dataGridResultados).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -148,5 +182,8 @@
         private Button btnSelectLinq;
         private Button btnSelectManyLinq;
         private Button btnWhereLinq;
+        private Button btnOfType;
+        private Button btnWhereLinqAvanz;
+        private TextBox txtFiltro;
     }
 }
