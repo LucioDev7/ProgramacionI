@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/RXb68iJH0hyY2zUp9cPf2yESzqvLEyxPTbzm4ahDL4tLAJG/VYCbxY2scLVm0da2S3KCzrfzEHpeUk7LhNFyQ==",
+  "success": true,
+  "projectFilePath": "C:\\TerceroLucio\\ProgramacionI\\EjerciciosDePrueba\\EjerciciosDePrueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell14\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

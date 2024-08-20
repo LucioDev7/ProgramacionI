@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Views\Clients\ClientsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Clients\NewEditClientView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Empleado\EmpleadosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Empleado\NewEditEmpleadosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Linq\PruebasLinqView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\MainMenuView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\StoredProceduresProduct\NewEditProductsSPView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\ORM\ClientsORMView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\StoredProceduresProduct\ProductsStoredProceduresView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Producto\NewEditProductosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Producto\ProductosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\StoredProceduresClient\ClientsStoredProceduresView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\StoredProceduresClient\NewEditClientsSPView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Tipo de Producto\NewEditTipoDeProductoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Tipo de Producto\TipoDeProductoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
