@@ -118,6 +118,26 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
             var peliculas = pelis.Where(p => p.title.Contains(filtro) || p.director.Contains(filtro) || p.genre.Contains(filtro)).ToList();
             dataGridResultados.DataSource = peliculas;
         }
+
+        private void btnOrderBy_Click(object sender, EventArgs e)
+        {
+            using (var context = new Ciclismo2Context())
+            {
+                var clientes = context.Clientes.OrderBy(c => c.Nombre).ToList();
+
+                dataGridResultados.DataSource = clientes.ToList();
+            }
+        }
+
+        private void btnOrderByAvanzado_Click(object sender, EventArgs e)
+        {
+            using (var context = new Ciclismo2Context())
+            {
+                var clientes = context.Clientes.OrderBy(c => c.Pais).ThenBy(c => c.Nombre).ToList();
+
+                dataGridResultados.DataSource = clientes.ToList();
+            }
+        }
     }
 }
 

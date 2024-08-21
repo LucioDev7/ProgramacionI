@@ -39,6 +39,8 @@
             btnOfType = new Button();
             btnWhereLinqAvanz = new Button();
             txtFiltro = new TextBox();
+            btnOrderBy = new Button();
+            btnOrderByAvanzado = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridResultados).BeginInit();
             SuspendLayout();
             // 
@@ -148,11 +150,33 @@
             txtFiltro.Size = new Size(212, 27);
             txtFiltro.TabIndex = 10;
             // 
+            // btnOrderBy
+            // 
+            btnOrderBy.Location = new Point(570, 373);
+            btnOrderBy.Name = "btnOrderBy";
+            btnOrderBy.Size = new Size(141, 29);
+            btnOrderBy.TabIndex = 11;
+            btnOrderBy.Text = "Prueba OrderBy";
+            btnOrderBy.UseVisualStyleBackColor = true;
+            btnOrderBy.Click += btnOrderBy_Click;
+            // 
+            // btnOrderByAvanzado
+            // 
+            btnOrderByAvanzado.Location = new Point(570, 408);
+            btnOrderByAvanzado.Name = "btnOrderByAvanzado";
+            btnOrderByAvanzado.Size = new Size(191, 29);
+            btnOrderByAvanzado.TabIndex = 12;
+            btnOrderByAvanzado.Text = "Prueba OrderBy Avanzado";
+            btnOrderByAvanzado.UseVisualStyleBackColor = true;
+            btnOrderByAvanzado.Click += btnOrderByAvanzado_Click;
+            // 
             // PruebasLinqView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnOrderByAvanzado);
+            Controls.Add(btnOrderBy);
             Controls.Add(txtFiltro);
             Controls.Add(btnWhereLinqAvanz);
             Controls.Add(btnOfType);
@@ -185,5 +209,7 @@
         private Button btnOfType;
         private Button btnWhereLinqAvanz;
         private TextBox txtFiltro;
+        private Button btnOrderBy;
+        private Button btnOrderByAvanzado;
     }
 }
