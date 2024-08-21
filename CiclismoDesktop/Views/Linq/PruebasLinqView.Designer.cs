@@ -50,12 +50,12 @@
             dataGridResultados.Location = new Point(12, 12);
             dataGridResultados.Name = "dataGridResultados";
             dataGridResultados.RowHeadersWidth = 51;
-            dataGridResultados.Size = new Size(533, 355);
+            dataGridResultados.Size = new Size(362, 291);
             dataGridResultados.TabIndex = 0;
             // 
             // btnPruebaArray
             // 
-            btnPruebaArray.Location = new Point(600, 12);
+            btnPruebaArray.Location = new Point(393, 12);
             btnPruebaArray.Name = "btnPruebaArray";
             btnPruebaArray.Size = new Size(141, 29);
             btnPruebaArray.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // btnSqlLinq
             // 
-            btnSqlLinq.Location = new Point(600, 71);
+            btnSqlLinq.Location = new Point(393, 47);
             btnSqlLinq.Name = "btnSqlLinq";
             btnSqlLinq.Size = new Size(141, 29);
             btnSqlLinq.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             // btnXMLlinq
             // 
-            btnXMLlinq.Location = new Point(600, 131);
+            btnXMLlinq.Location = new Point(393, 82);
             btnXMLlinq.Name = "btnXMLlinq";
             btnXMLlinq.Size = new Size(141, 29);
             btnXMLlinq.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             // btnJsonLinq
             // 
-            btnJsonLinq.Location = new Point(600, 189);
+            btnJsonLinq.Location = new Point(393, 117);
             btnJsonLinq.Name = "btnJsonLinq";
             btnJsonLinq.Size = new Size(141, 29);
             btnJsonLinq.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             // btnSelectLinq
             // 
-            btnSelectLinq.Location = new Point(12, 373);
+            btnSelectLinq.Location = new Point(393, 222);
             btnSelectLinq.Name = "btnSelectLinq";
             btnSelectLinq.Size = new Size(141, 29);
             btnSelectLinq.TabIndex = 5;
@@ -105,9 +105,9 @@
             // 
             // btnSelectManyLinq
             // 
-            btnSelectManyLinq.Location = new Point(12, 409);
+            btnSelectManyLinq.Location = new Point(12, 379);
             btnSelectManyLinq.Name = "btnSelectManyLinq";
-            btnSelectManyLinq.Size = new Size(163, 29);
+            btnSelectManyLinq.Size = new Size(212, 29);
             btnSelectManyLinq.TabIndex = 6;
             btnSelectManyLinq.Text = "Prueba SelectMany";
             btnSelectManyLinq.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             // 
             // btnWhereLinq
             // 
-            btnWhereLinq.Location = new Point(177, 373);
+            btnWhereLinq.Location = new Point(393, 187);
             btnWhereLinq.Name = "btnWhereLinq";
             btnWhereLinq.Size = new Size(141, 29);
             btnWhereLinq.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             // btnOfType
             // 
-            btnOfType.Location = new Point(181, 409);
+            btnOfType.Location = new Point(393, 257);
             btnOfType.Name = "btnOfType";
             btnOfType.Size = new Size(141, 29);
             btnOfType.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             // btnWhereLinqAvanz
             // 
-            btnWhereLinqAvanz.Location = new Point(333, 373);
+            btnWhereLinqAvanz.Location = new Point(12, 309);
             btnWhereLinqAvanz.Name = "btnWhereLinqAvanz";
             btnWhereLinqAvanz.Size = new Size(212, 29);
             btnWhereLinqAvanz.TabIndex = 9;
@@ -145,14 +145,14 @@
             // 
             // txtFiltro
             // 
-            txtFiltro.Location = new Point(333, 412);
+            txtFiltro.Location = new Point(230, 311);
             txtFiltro.Name = "txtFiltro";
             txtFiltro.Size = new Size(212, 27);
             txtFiltro.TabIndex = 10;
             // 
             // btnOrderBy
             // 
-            btnOrderBy.Location = new Point(570, 373);
+            btnOrderBy.Location = new Point(393, 152);
             btnOrderBy.Name = "btnOrderBy";
             btnOrderBy.Size = new Size(141, 29);
             btnOrderBy.TabIndex = 11;
@@ -162,9 +162,9 @@
             // 
             // btnOrderByAvanzado
             // 
-            btnOrderByAvanzado.Location = new Point(570, 408);
+            btnOrderByAvanzado.Location = new Point(12, 344);
             btnOrderByAvanzado.Name = "btnOrderByAvanzado";
-            btnOrderByAvanzado.Size = new Size(191, 29);
+            btnOrderByAvanzado.Size = new Size(212, 29);
             btnOrderByAvanzado.TabIndex = 12;
             btnOrderByAvanzado.Text = "Prueba OrderBy Avanzado";
             btnOrderByAvanzado.UseVisualStyleBackColor = true;

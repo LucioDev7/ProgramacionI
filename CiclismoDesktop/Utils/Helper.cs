@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -18,3 +19,5 @@ namespace CiclismoDesktopPorCodigo.Utils
         }
     }
 }
+
+//Scaffold-DbContext "server=.\SQLEXPRESS; database=argentina; user id=sa; password=123; multipleactiveresultsets=true; Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer - OutputDir ModelsArg - Context argentinaContext - ContextDir DataContext - DataAnnotations

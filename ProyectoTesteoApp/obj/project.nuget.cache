@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7P24J3BdrEbfawSyowyHVPfaHOSKiUqZALP3HxzyJBklzCauiwlfLbbbJQiLkjDXdbE/y0qp9cpoZT5kvOtdOg==",
+  "dgSpecHash": "pctGWWR5sX0oej0Yncl/Izihf7YDB9QD4h0l7nkZ0DXe+5hwyydrcRC+L7Tr1vrpKyP/92rwYH42sXbxdFS0Sw==",
   "success": true,
   "projectFilePath": "C:\\TerceroLucio\\ProgramacionI\\ProyectoTesteoApp\\ProyectoTesteoLibros.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
     "C:\\Users\\Dell14\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
     "C:\\Users\\Dell14\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

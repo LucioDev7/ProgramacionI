@@ -94,7 +94,12 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
 
         private void btnSelectManyLinq_Click(object sender, EventArgs e)
         {
-
+            object[] objectos = { 1, "San Justo", true, new string[] { "Hola", "Mundo" }, true, new string[] { "Santa Fe", "San Justo" }, 5, "Lucio", 7.5f, false, 9, new int[] { 1, 2, 3 } };
+            var ArrayString = objectos.OfType<string[]>().SelectMany( a => a).Select(s=> new
+            {
+                Texto=s
+            }).ToList();
+            dataGridResultados.DataSource = ArrayString;
         }
 
         private void btnWhereLinq_Click(object sender, EventArgs e)
@@ -106,9 +111,9 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
 
         private void btnOfType_Click(object sender, EventArgs e)
         {
-            var pelis = JSONarrayPeliculas.ToObject<List<Pelicula>>();
-            var peliculas = pelis.OfType<int>();
-            dataGridResultados.DataSource = peliculas;
+            object[] objects = { 1, "San Justo", true, new string[] { "Hola", "Mundo" }, 5, "Lucio", 7.5f, false, 9, new int[] { 1, 2, 3 } };
+            var textoEnArray = objects.OfType<string>();
+            dataGridResultados.DataSource = textoEnArray.Select(texto => new { Texto = texto }).ToList();
         }
 
         private void btnWhereLinqAvanz_Click(object sender, EventArgs e)

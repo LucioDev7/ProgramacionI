@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CiclismoDesktopPorCodigo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+487a84191e9d7995938a1371663c3c06a37ed980")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e560d6a892b51d749b66e7e7a7a4b9acd3c7f500")]
 [assembly: System.Reflection.AssemblyProductAttribute("CiclismoDesktopPorCodigo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CiclismoDesktopPorCodigo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

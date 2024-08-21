@@ -58,8 +58,8 @@
               "Title": "PruebasLinqView.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
               "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T17:26:56.499Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -70,9 +70,9 @@
               "Title": "PruebasLinqView.cs",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
               "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAAAIEAAAAJAAAA",
+              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs*",
+              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs*",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T19:48:09.691Z",
               "EditorCaption": ""
@@ -87,7 +87,8 @@
               "RelativeToolTip": "CiclismoDesktop\\XML\\Libros.xml",
               "ViewState": "AQIAAGcAAAAAAAAAAAAiwHIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-08-20T18:05:11.971Z"
+              "WhenOpened": "2024-08-20T18:05:11.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
