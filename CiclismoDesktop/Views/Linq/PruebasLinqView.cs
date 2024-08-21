@@ -1,5 +1,7 @@
-﻿using CiclismoDesktopPorCodigo.Modelos;
+﻿using CiclismoDesktopPorCodigo.DataContext;
+using CiclismoDesktopPorCodigo.Modelos;
 using CiclismoDesktopPorCodigo.Models;
+using CiclismoDesktopPorCodigo.ModelsArg;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Linq;
 using System;
@@ -95,9 +97,9 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
         private void btnSelectManyLinq_Click(object sender, EventArgs e)
         {
             object[] objectos = { 1, "San Justo", true, new string[] { "Hola", "Mundo" }, true, new string[] { "Santa Fe", "San Justo" }, 5, "Lucio", 7.5f, false, 9, new int[] { 1, 2, 3 } };
-            var ArrayString = objectos.OfType<string[]>().SelectMany( a => a).Select(s=> new
+            var ArrayString = objectos.OfType<string[]>().SelectMany(a => a).Select(s => new
             {
-                Texto=s
+                Texto = s
             }).ToList();
             dataGridResultados.DataSource = ArrayString;
         }
@@ -141,6 +143,35 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
                 var clientes = context.Clientes.OrderBy(c => c.Pais).ThenBy(c => c.Nombre).ToList();
 
                 dataGridResultados.DataSource = clientes.ToList();
+            }
+        }
+
+        private void btnOrderByDesc_Click(object sender, EventArgs e)
+        {
+            using (var context = new argentinaContext())
+            {
+                //Extension Methods
+                //var provincias = context.Provincias.OrderByDescending(p => p.Nombre).ToList();
+                //dataGridResultados.DataSource = provincias;
+
+                var provincias = from provincia in context.Provincias
+                                 orderby provincia.Nombre descending
+                                 select provincia;
+                dataGridResultados.DataSource = provincias.ToList();
+            }
+        }
+
+        private void btnGroupBy_Click(object sender, EventArgs e)
+        {
+            using (var context = new argentinaContext())
+            {
+                var departamentosAgrupadosPorProvincia = context.Departamentos.Include(d=>d.Provincias).GroupBy(d => d.ProvinciasId).Select(d=> new
+                {
+                    NumeroProvincia = d.Key,
+                    NombreProvincia = d.First().Provincias.Nombre,
+                    NumeroDepartamento = d.Count()
+                }).ToList();
+                dataGridResultados.DataSource = departamentosAgrupadosPorProvincia;
             }
         }
     }
