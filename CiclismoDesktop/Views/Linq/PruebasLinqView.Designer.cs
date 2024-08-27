@@ -43,6 +43,7 @@
             btnOrderByAvanzado = new Button();
             btnOrderByDesc = new Button();
             btnGroupBy = new Button();
+            btnGroupBy2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridResultados).BeginInit();
             SuspendLayout();
             // 
@@ -192,11 +193,22 @@
             btnGroupBy.UseVisualStyleBackColor = true;
             btnGroupBy.Click += btnGroupBy_Click;
             // 
+            // btnGroupBy2
+            // 
+            btnGroupBy2.Location = new Point(540, 47);
+            btnGroupBy2.Name = "btnGroupBy2";
+            btnGroupBy2.Size = new Size(141, 29);
+            btnGroupBy2.TabIndex = 15;
+            btnGroupBy2.Text = "Prueba Group By2";
+            btnGroupBy2.UseVisualStyleBackColor = true;
+            btnGroupBy2.Click += btnGroupBy2_Click;
+            // 
             // PruebasLinqView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnGroupBy2);
             Controls.Add(btnGroupBy);
             Controls.Add(btnOrderByDesc);
             Controls.Add(btnOrderByAvanzado);
@@ -237,5 +249,6 @@
         private Button btnOrderByAvanzado;
         private Button btnOrderByDesc;
         private Button btnGroupBy;
+        private Button btnGroupBy2;
     }
 }

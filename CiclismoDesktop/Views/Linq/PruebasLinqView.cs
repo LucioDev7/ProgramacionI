@@ -165,7 +165,7 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
         {
             using (var context = new argentinaContext())
             {
-                var departamentosAgrupadosPorProvincia = context.Departamentos.Include(d=>d.Provincias).GroupBy(d => d.ProvinciasId).Select(d=> new
+                var departamentosAgrupadosPorProvincia = context.Departamentos.Include(d => d.Provincias).GroupBy(d => d.ProvinciasId).Select(d => new
                 {
                     NumeroProvincia = d.Key,
                     NombreProvincia = d.First().Provincias.Nombre,
@@ -175,7 +175,24 @@ namespace CiclismoDesktopPorCodigo.Views.Linq
             }
         }
 
-        //HACER UN GROUP BY 2 QUE MUESTRE LA CANTIDAD DE LOCALIDADES QUE TIENE CADA DEPARTAMENTO DE LA PROVINCIA DE SANTA FE
+        private void btnGroupBy2_Click(object sender, EventArgs e)
+        {
+            using (var context = new argentinaContext())
+            {
+                var localidadesPorDepartamento = context.Localidades
+                    .Where(l => l.Departamentos.Provincias.Nombre == "Santa Fe")
+                    .Include(l => l.Departamentos)
+                    .ThenInclude(l => l.Provincias)
+                    .GroupBy(l => l.DepartamentosId)
+                    .Select(l => new
+                    {
+                        Departamento = l.First().Departamentos.Nombre,
+                        Localidades = l.Count()
+                    });
+
+                dataGridResultados.DataSource = localidadesPorDepartamento.ToList();
+            }
+        }       
     }
 }
 

@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +58,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PruebasLinqView.cs",
+              "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAMIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:31:19.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PruebasLinqView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
+              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:27:10.715Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Provincia.cs",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\ModelsArg\\Provincia.cs",
@@ -71,31 +96,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PruebasLinqView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T17:26:56.499Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PruebasLinqView.cs",
-              "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "RelativeDocumentMoniker": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ToolTip": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "RelativeToolTip": "CiclismoDesktop\\Views\\Linq\\PruebasLinqView.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAAAKoAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:48:09.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Libros.xml",
               "DocumentMoniker": "C:\\TerceroLucio\\ProgramacionI\\CiclismoDesktop\\XML\\Libros.xml",
@@ -104,8 +104,7 @@
               "RelativeToolTip": "CiclismoDesktop\\XML\\Libros.xml",
               "ViewState": "AQIAAGcAAAAAAAAAAAAiwHIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-08-20T18:05:11.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T18:05:11.971Z"
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "CiclismoDesktop\\Views\\MainMenuView.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAcwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:30:51.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T17:30:51.512Z"
             }
           ]
         },
